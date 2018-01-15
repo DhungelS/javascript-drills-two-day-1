@@ -27,7 +27,7 @@ jediName("Saugat", "Dhungel")*/
 // beyond(0);
 
 
-function decode (word){
+/*function decode (word){
 if(word[0] === "a"){
   console.log(word[1])
 }
@@ -45,4 +45,71 @@ else {
   console.log(" ")
 }
 }
-console.log(decode("droop"))
+console.log(decode("droop"))*/
+
+function daysInMonth(month) {
+    switch (month) {
+        case "January":
+            days = 31;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "February":
+            days = 28;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "March":
+            days = 31;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "April":
+            days = 31;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "May":
+            days = 31;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "June":
+            days = 31;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "July":
+            days = 31;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "August":
+            days = 31;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "September":
+            days = 30;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "October":
+            days = 31;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "November":
+            days = 30;
+            console.log(`${month} has ${days} days.`)
+            break;
+
+        case "December":
+            days = 31;
+            console.log(`${month} has ${days} days.`)
+            break;
+    }
+}
+
+
+daysInMonth("November")
